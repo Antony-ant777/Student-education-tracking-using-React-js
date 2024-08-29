@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.leftside{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  float: left;
+  background-color:rgb(153, 152, 152);
+  width: 20%;
+  height: 740px;
+}
+.logo{
+  height: 20%;
+  width: 60%;
+  margin-left: 20%;
+}
+.lefticon{
+    height: 24%;
+    width: 24%;
+    margin-left: 40%;
+}
+li{
+  list-style: none;
+  text-align: center;
+}
+.top{
+  background-color: black;
+  color: aliceblue;
+  padding: 10px ;
+  margin-left: 20px;
+  
+}
+.lineone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7%;
 }
 
-.App-link {
-  color: #61dafb;
+.box{
+  background-color: rgb(151, 151, 150);
+  text-align: center;
+  margin-top:1%;
+  width: 300px;
+  border-radius: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boxin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:50%;
+  
+}
+p{
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+h3{
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+.icon{
+  height: 100px;
+  width: 100px;
+}
+hr{
+ background-color: aliceblue;
+ box-shadow: 20px 20px 40px black;
+}
+h1{
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif;
+}
+.line2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:50px;
+  text-align: center;
+}
+.line3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:5%;
+  text-align: center;
+}
+.line4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10%;
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+.ic{
+  height: 50px;
+  width: 50px;
+ 
+}
+.one{
+  width: 200px;
 }

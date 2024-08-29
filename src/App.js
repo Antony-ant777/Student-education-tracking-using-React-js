@@ -39,9 +39,9 @@ function Studentedutracking() {
 
             <div className='lineone'>
                 <div className='box'>
-                    <div className='boxin' onClick={()=>setOne(one+1)}>
+                    <div className='boxin' >
                     <div >
-                    <MdAccountCircle className='icon' />
+                    <MdAccountCircle className='icon' onClick={()=>setOne(one+1)} />
                     </div>
                     <div className='num'>
                         <h3>{one}</h3>
@@ -50,9 +50,9 @@ function Studentedutracking() {
                     <p>Regular Student</p>
                 </div>
                 <div className='box'>
-                    <div className='boxin' onClick={()=>setTwo(two+1)}>
+                    <div className='boxin' >
                     <div >
-                    <MdAccountCircle className='icon' />
+                    <MdAccountCircle className='icon' onClick={()=>setTwo(two+1)}/>
                     </div>
                     <div className='num'>
                         <h3>{two}</h3>
@@ -61,9 +61,9 @@ function Studentedutracking() {
                     <p>Remaindal Student</p>
                 </div>
                 <div className='box'>
-                    <div className='boxin' onClick={()=>setThree(three+1)}>
+                    <div className='boxin' >
                     <div >
-                    <IoManSharp className='icon'/>
+                    <IoManSharp className='icon' onClick={()=>setThree(three+1)}/>
                     </div>
                     <div className='num'>
                         <h3>{three}</h3>

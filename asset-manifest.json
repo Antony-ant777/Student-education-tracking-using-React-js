@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Student-education-tracking-using-React-js/static/css/main.79452d6e.css",
+    "main.js": "/Student-education-tracking-using-React-js/static/js/main.027256f4.js",
+    "static/js/453.24ef9cf9.chunk.js": "/Student-education-tracking-using-React-js/static/js/453.24ef9cf9.chunk.js",
+    "static/media/royal.png": "/Student-education-tracking-using-React-js/static/media/royal.ab3997e9a94fe758711f.png",
+    "index.html": "/Student-education-tracking-using-React-js/index.html",
+    "main.79452d6e.css.map": "/Student-education-tracking-using-React-js/static/css/main.79452d6e.css.map",
+    "main.027256f4.js.map": "/Student-education-tracking-using-React-js/static/js/main.027256f4.js.map",
+    "453.24ef9cf9.chunk.js.map": "/Student-education-tracking-using-React-js/static/js/453.24ef9cf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79452d6e.css",
+    "static/js/main.027256f4.js"
+  ]
+}
